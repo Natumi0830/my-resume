@@ -32,22 +32,15 @@
         display: inline-block; 
     }
 
-    /* 大頭照加上金色邊框 */
-    .profile-img {
-        width: 180px;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 50%;
-        border: 5px solid rgba(241, 196, 15, 0.4); 
-        margin-bottom: 20px;
-    }
-        /* 控制大頭照大小與形狀 */
+   /* 控制大頭照大小、形狀與金色邊框 */
         .profile-img { 
             width: 180px; 
             height: 180px; 
             object-fit: cover; 
             border-radius: 50%; 
-            border: 5px solid rgba(255,255,255,0.2); 
+            /* 這裡就是金色的魔法：使用 rgba 設定帶透明感的金色 */
+            border: 5px solid rgba(241, 196, 15, 0.6); 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* 加上一點陰影會更有立體感 */
             margin-bottom: 20px;
         }
     </style>
