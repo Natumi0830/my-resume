@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rita 陳忻妤的個人履歷</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-bg { background: #2c3e50; color: white; padding: 100px 0; }
+        .section-title { border-left: 5px solid #2980b9; padding-left: 15px; margin-bottom: 30px; }
+        .skill-badge { background-color: #3498db; color: white; padding: 5px 15px; border-radius: 20px; margin: 5px; display: inline-block; }
+        /* 控制大頭照大小與形狀 */
+        .profile-img { 
+            width: 180px; 
+            height: 180px; 
+            object-fit: cover; 
+            border-radius: 50%; 
+            border: 5px solid rgba(255,255,255,0.2); 
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-bg text-center">
+        <div class="container">
+            <img src="img/profile.jpg" alt="Rita" class="profile-img mb-4">
+            <h1 class="display-3 fw-bold">Rita 陳忻妤</h1>
+            <p class="lead">報關業專業人員 | 資訊管理進修中 | Python 與網路技術學習者</p>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="section-title">關於我 & 學習目標</h2>
+                <p>目前在報關產業服務約三年，並於正修科技大學進修資訊管理。我熱衷於將科技應用於實務工作中，已成功考取 <strong>Cisco CCST Networking</strong> 證照 (分數 965)。</p>
+                
+                <h2 class="section-title mt-5">專業技能</h2>
+                <div class="skill-badge">Python 程式設計</div>
+                <div class="skill-badge">網路基礎設定 (CCST)</div>
+                <div class="skill-badge">報關實務處理</div>
+                <div class="skill-badge">GUI 介面開發 (Tkinter)</div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="card shadow">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">專案作品</h4>
+                        <hr>
+                        <h5 class="text-primary">Python 點餐系統</h5>
+                        <p class="text-muted">使用 Replit 平台開發的 GUI 專案，練習 Tkinter 視窗佈局與金額運算邏輯。</p>
+                        <div class="bg-light p-4 rounded text-secondary" style="border: 2px dashed #ccc;">
+                           <img src="img/ordering.png" class="img-fluid" alt="點餐系統">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4 bg-light">
+        <p>© 2026 Rita Chen | 自我介紹網頁作業</p>
+    </footer>
+
+</body>
+</html>
